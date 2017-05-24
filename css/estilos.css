@@ -8,17 +8,27 @@ Author URL:
 */
 
 /******HEADER MENU BODY*****/
+body{
+	background-image: url(/../img/banner.jpg) no-repeat;
+	font-size: 16px;
+	font-family: "Open Sans", Arial, Helvetica, Sans-serif;
+}
+
 header{
-	background: #760f12;
+	background: white;
 	margin: 0 0 20px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
 	height: 170px;
 	overflow: hidden;
+	text-align:  center;
+}
+
+header h1{
+	color: #760f12;
 }
 
 header section footer{
-	
 	max-width: 950px;
 	margin: 0 auto;
 
@@ -48,18 +58,13 @@ nav a.selected, a:hover{
 }
 
 nav a {
-	
+	font-size: 1em;
 	padding: 10px 20px;
 	text-decoration-line: none;
-	color: #fff;
+	color: #760f12;
 }
 
-body{
-	background-image: url(/../img/banner.jpg) no-repeat;
-	font-size: 12pt;
-	font-family: "Open Sans", Arial, Helvetica, Sans-serif;
 
-}
 
 .wrapper{
 	width: 100%;
@@ -170,6 +175,48 @@ td{
 	text-align: justify;
 	font-size: 12px;
 }
+
+
+/*
+	CLASE MAIN PARA BLOG
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.main{
+	width: 90%;
+	margin: 0 auto 2em auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main .artic_list{
+	width:  73%;
+	padding-right: 1em;
+	border-right: 1px solid #333333;
+}
+
+.main aside{
+	width: 25%;
+}
+
+/******BLOG*****/
+
+.artic_list > h2{
+	color: #760f12;
+	text-decoration: none;
+}
+
+.main .artic_list article figure{
+	width: 100%;
+	margin: 0;
+	height: 22em;
+	overflow: hidden;
+}
+
+.main .artic_list article figure img{
+	width: 100%;
+}
+
 
 
 /******FOOTER*****/
@@ -284,40 +331,14 @@ margin-right: 10px;
 
 
 
-header, footer, table, #main, .wrapper, .sobrenos{
+header, footer, table, .wrapper, .sobrenos{
 	width: 90%;
 	max-width: 960px;
 	margin: 0px auto;
 	font-family: "Open Sans", Arial, Helvetica, Sans-serif;
 }
 
-/******BLOG*****/
 
-#main .artic_list{
-	clear: both;
-	width: 75%;
-	float: left;
-
-}
-
-#main .artic_list > h2{
-	color: #760f12;
-	text-decoration: none;
-}
-#main .artic_list, article{
-	margin-bottom: 40px;
-	margin-right: 4%;
-	padding-bottom: 40px;
-	border-bottom: 1px solid #333333;
-	overflow: hidden;
-}
-
-#main .artic_list .thumb{
-	width: 35%;
-	margin-right: 4%;
-	text-align: center;
-	margin-bottom: 2%;
-}
 /******WIDGET*****/
 
 
