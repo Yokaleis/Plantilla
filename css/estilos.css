@@ -1,0 +1,333 @@
+/*
+Theme Name: Via Legal
+Theme URI:
+Description:
+Version: 1
+Author: 
+Author URL:
+*/
+
+/******HEADER MENU BODY*****/
+header{
+	background: #760f12;
+	margin: 0 0 20px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	height: 170px;
+	overflow: hidden;
+}
+
+header section footer{
+	
+	max-width: 950px;
+	margin: 0 auto;
+
+}
+
+nav{
+	text-align: center;
+	padding: 10px 0;
+	margin: 10px 0 0;
+	
+}
+
+nav li {
+	display: inline-block;
+
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px 0;
+	padding: 0;
+}
+
+nav a.selected, a:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+nav a {
+	
+	padding: 10px 20px;
+	text-decoration-line: none;
+	color: #fff;
+}
+
+body{
+	background-image: url(/../img/banner.jpg) no-repeat;
+	font-size: 12pt;
+	font-family: "Open Sans", Arial, Helvetica, Sans-serif;
+
+}
+
+.wrapper{
+	width: 100%;
+	text-align: center;
+	
+
+}
+
+div li{
+	display: inline-grid;
+	padding: 0 10px;
+	
+}
+
+div p{
+	font-size: 10px;
+}
+
+/******PRIMERA SECCION*****/
+
+.primera{
+	width: 100%;
+	height: 450px;
+	padding-top: 20px;
+}
+
+.primera h2, h4, p{
+	color: #760f12;
+	margin: 10px;
+}
+
+
+/******SEGUNDA SECCION PAGINA INDEX*****/
+
+.segunda{
+	width: 100%;
+	height: 450px;
+	background: rgb(118, 15, 18, 0.9);
+	margin-right: 0;
+	text-align: justify;
+
+
+}
+.segunda h2{
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+	padding-top: 50px;
+	margin-bottom: 10px;
+
+}
+
+.segunda p{
+	color: #fff;
+	height: 100px;
+	font-size: 15px;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+
+.mas{
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+	margin-left: 25px;
+
+}
+
+.border{
+	border: 2px solid #fff;
+	text-align: center;
+	margin-left: 500px;
+	margin-right: 500px;
+
+}
+
+.frag_1{
+	float: right;
+
+}
+
+
+/******TABLA DE ARTICULOS*****/
+td{
+	margin-left:  150px;
+	margin-right: 150px;
+}
+.thumb{
+	text-align: center;
+}
+.art_1, .art_2, .art_3, h3{
+	text-align: center;
+	font-size: 20px;
+	color: #760f12;
+}
+
+.date {
+	text-align: left;
+	color: #000;
+	font-size: 15px;
+}
+
+.art_1, .art_2, .art_3 p{
+	text-align: justify;
+	font-size: 12px;
+}
+
+
+/******FOOTER*****/
+
+*{margin: 0; padding: 0;}
+
+footer{
+	background: #760f12;
+	padding-top: 35px;
+	color: #838484;
+	height: 100px;
+	position: relative;
+	margin-bottom: 0;
+} 
+
+footer p{
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	font-size: 14px;
+	margin-top: -30px;	
+}
+
+
+footer h5{
+	color: #fff;
+	font-weight: lighter;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 50px;
+	margin-top: -25px;
+}
+
+footer li{
+	color: #fff;
+	margin: 2px;
+	padding: 5px;
+
+
+}
+
+/******FOOTER CONTACTO*****/
+
+.contacto{
+	list-style: none;
+	padding: 0;
+	margin: -20px 20px 20px;
+	font-size: 12px;
+	margin-top: 10px;
+
+
+}
+
+.contacto a{
+	
+	min-height: 20px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 20px;
+	margin: 0 0 0 20px;
+	margin-left:auto;
+	margin-bottom: 2px;
+	margin-right: 5px;
+	
+}
+
+footer h5.pos{
+	
+color: #fff;
+font-weight: lighter;
+text-align: right;
+padding: 0 75px 180px 0px;
+margin: -125px 0 0px 0px;
+margin-right: 10px;
+}
+
+.contacto li.mail a{
+	background-image: url('../img/envelope.png');
+
+}
+.contacto li.telefono a{
+	background-image: url('../img/telefono.png');
+}
+.contacto li.facebook a{
+	background-image: url('../img/f-logo.png');
+}
+
+/******FOOTER POST*****/
+/*.post{
+	text-align: right;
+	margin-right: 50px;
+	padding: 0;
+	margin: -180px 0px 0px 0px;
+	margin-right: 100px;
+	list-style: none;
+	font-size: 13px;
+}
+*/
+
+/******SOBRE NOSOTROS*****/
+
+.sobrenos h2{
+	color: #760f12;
+	text-align: center;
+}
+
+.sobrenos p{
+	text-align: justify;
+}
+
+
+
+
+header, footer, table, #main, .wrapper, .sobrenos{
+	width: 90%;
+	max-width: 960px;
+	margin: 0px auto;
+	font-family: "Open Sans", Arial, Helvetica, Sans-serif;
+}
+
+/******BLOG*****/
+
+#main .artic_list{
+	clear: both;
+	width: 75%;
+	float: left;
+
+}
+
+#main .artic_list > h2{
+	color: #760f12;
+	text-decoration: none;
+}
+#main .artic_list, article{
+	margin-bottom: 40px;
+	margin-right: 4%;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #333333;
+	overflow: hidden;
+}
+
+#main .artic_list .thumb{
+	width: 35%;
+	margin-right: 4%;
+	text-align: center;
+	margin-bottom: 2%;
+}
+/******WIDGET*****/
+
+
+
+
+
+
+
+
+
+
+/******ASIDE*****/
+
